@@ -1,0 +1,130 @@
+.main {
+    background: url(../../img/main/bg.png);
+    top: 0;
+    // .main__wrapper
+
+    &__wrapper {}
+
+    // .main__content
+
+    &__content {
+        margin-top: 269px;
+        position: relative;
+        z-index: 30;
+        max-width: 992px;
+    }
+
+    // .main__subtitle
+
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 140%;
+        /* or 50px */
+
+
+        color: #FFFFFF;
+    }
+
+    // .main__date
+
+    &__date {
+        text-transform: uppercase;
+        span {
+            color: #74F94C;
+        }
+    }
+
+    // .main__city
+
+    &__city {
+        margin-left: 60px;
+    }
+
+    // .main__image
+
+    &__image {
+        position: relative;
+        z-index: 30;
+    }
+
+    // .main__title
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-top: -34px;
+    }
+
+    // .main__description
+
+    &__description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 140%;
+        /* identical to box height, or 34px */
+
+
+        color: #FFFFFF;
+        position: absolute;
+        left: 365px;
+        bottom: -16px;
+    }
+}
+
+.girl {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.elipse {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.time {
+    position: relative;
+    z-index: 30;
+    max-width: 705px;
+    margin-top: 175px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    background: #171d34;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    /* or 50px */
+
+
+    color: #FFFFFF;
+
+    // .time__text
+
+    &__text {}
+
+    // .time__value
+
+    &__value {
+        margin-left: 25px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 140%;
+        color: #74F94C;
+    }
+}

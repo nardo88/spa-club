@@ -1,0 +1,119 @@
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding-top: 38px;
+    z-index: 50;
+
+
+    // .header__wrapper
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    // .header__logo
+
+    &__logo {}
+
+    // .header__nav
+
+    &__nav {}
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+    // .nav__list
+
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+
+    // .nav__item
+
+    &__item {
+        margin-right: 90px;
+    }
+
+    // .nav__link
+
+    &__link {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 145%;
+        color: #FDFDFD;
+        text-decoration: none;
+
+    }
+
+    // .nav__registration
+
+    &__registration {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+        cursor: pointer;
+        padding: 12px 30px;
+        border: none;
+        outline: none;
+        color: #0B1129;
+        background: #74F94C;
+        border-radius: 99px;
+    }
+}
+
+.burger {
+    display: none;
+    padding: 15px 0;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    height: 29px;
+
+    // .burger__item
+
+    &__item {
+        position: relative;
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: #FDFDFD;
+        font-size: 0;
+
+        &:after{
+            content: '';
+            width: 28px;
+            height: 3px;
+            background: #FDFDFD;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            transition: 0.2s;
+
+        }
+
+        &:before{
+            content: '';
+            width: 28px;
+            height: 3px;
+            background: #FDFDFD;
+            position: absolute;
+            top: -10px;
+            left: 0;
+            transition: 0.2s;
+
+        }
+    }
+}

@@ -1,0 +1,253 @@
+//=============================================================== 1470 ======================================================
+@media (max-width: 1470px){
+    .container{
+        padding: 0 20px;
+    }
+
+    .girl {
+        width: 60%;
+        overflow: hidden;
+    }
+}
+
+//=============================================================== 1270 ======================================================
+@media (max-width: 1270px){
+    .nav{
+        &__item {
+            margin-right: 50px;
+        }
+    }
+
+}
+
+//=============================================================== 1200 ======================================================
+@media (max-width: 1200px){
+    .nav{
+        &__registration {
+            font-size: 16px;
+            line-height: 20px;
+            padding: 10px 20px;
+        }
+        &__item {
+            margin-right: 30px;
+        }
+    }
+
+    .main{
+        &__image {
+            position: relative;
+            z-index: 30;
+            width: 700px;
+        }
+
+        &__subtitle{
+            font-size: 33px;
+        } 
+        &__city {
+            margin-left: 30px;
+        }
+        &__title {
+            font-size: 31px;
+            margin-top: -25px;
+        }
+        &__description {
+            font-size: 22px;
+            left: 30%;
+        }
+        
+    }
+    .time{
+        font-size: 24px;
+        max-width: 524px;
+        padding: 15px;
+        &__value{
+            font-size: 22px;
+        }
+    }
+
+    
+}
+
+//=============================================================== 992 ======================================================
+
+@media (max-width: 992px){
+    .burger{
+        display: block;
+    }
+    .nav{
+        display: none;
+
+        &__list{
+            flex-direction: column;
+        }
+
+        &__item{
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    .open{
+        display: flex;
+        position: absolute;
+        top: 95px;
+        background: #0f1738;
+        flex-direction: column;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        padding: 50px 0;
+    }
+
+    .girl {
+        width: 100%;
+        overflow: hidden;
+        opacity: 0.6;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-end;
+
+        img{
+            height: 100%;
+            width: 60%;
+            object-fit: cover;
+        }
+    }
+    .elipse{
+        bottom: 0;
+
+        img{
+            width: 60%;
+        }
+    }
+    .main{
+        &__content{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 160px;
+
+        }
+    }
+    .time{
+        margin: 110px auto 0;
+    }
+
+}
+
+//=============================================================== 860 ======================================================
+
+@media (max-width: 860px){
+
+}
+
+//=============================================================== 768 ======================================================
+
+@media (max-width: 768px){
+
+}
+
+
+//=============================================================== 720 ======================================================
+
+@media (max-width: 720px){
+    .main{
+        &__subtitle {
+            font-size: 24px;
+        }
+
+        &__image{
+            width: 550px;
+        }
+
+        &__title {
+            font-size: 24px;
+            margin-top: -18px;
+        }
+
+        &__description{
+            position: static;
+            font-size: 18px;
+        }
+        
+    }
+}
+
+
+//=============================================================== 576 ======================================================
+
+@media (max-width: 576px){
+    .main{
+        &__image {
+            width: 450px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__title {
+            font-size: 18px;
+            margin-top: -12px;
+        }
+
+        &__description {
+            position: static;
+            font-size: 16px;
+        }
+    }
+
+    .time {
+        margin: 48px auto 0;
+        font-size: 18px;
+
+        &__value{
+            font-size: 18px;
+        }
+    }
+
+}
+
+
+//=============================================================== 480 ======================================================
+
+@media (max-width: 480px){
+    .header{
+        &__logo{
+            img{
+                width: 150px;
+            }
+        }
+    }
+
+    .main{
+        &__image {
+            width: 310px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 14px;
+            margin-top: -8px;
+        }
+        &__city {
+            margin-left: 10px;
+        }
+
+    }
+
+    .time {
+        margin: 40px auto 0;
+        font-size: 12px;
+        padding: 10px;
+    }
+}
+
+
+//=============================================================== 320 ======================================================
+
+@media (max-width: 320px){
+
+}

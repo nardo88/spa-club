@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('DrukWideCyr-Bold.eot');
+    src: url('DrukWideCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DrukWideCyr-Bold.woff2') format('woff2'),
+        url('DrukWideCyr-Bold.woff') format('woff'),
+        url('DrukWideCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
