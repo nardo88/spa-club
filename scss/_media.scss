@@ -8,6 +8,18 @@
         width: 60%;
         overflow: hidden;
     }
+    .statistics{
+        &__title-value{
+            font-size: 95px;
+        }
+        
+        &__description{
+            font-size: 28px;
+        }
+    }
+    .line{
+        // width: 64%;
+    }
 }
 
 //=============================================================== 1270 ======================================================
@@ -64,6 +76,17 @@
             font-size: 22px;
         }
     }
+
+    .statistics{
+        &__title-value{
+            font-size: 80px;
+        }
+        
+        &__description{
+            font-size: 23px;
+        }
+    }
+    
 
     
 }
@@ -134,18 +157,47 @@
         margin: 110px auto 0;
     }
 
+    .statistics{
+        &__title-value{
+            font-size: 65px;
+        }
+        &__subtitle {
+            font-size: 14px;
+        }
+        
+        &__description{
+            font-size: 20px;
+        }
+    }
 }
 
 //=============================================================== 860 ======================================================
 
 @media (max-width: 860px){
-
+    .statistics{
+      
+        
+        &__description{
+            font-size: 18px;
+        }
+    }
 }
 
 //=============================================================== 768 ======================================================
 
 @media (max-width: 768px){
-
+    .statistics{
+        &__title-value{
+            font-size: 57px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+        
+        &__description{
+            font-size: 16px;
+        }
+    }
 }
 
 
@@ -171,6 +223,40 @@
             font-size: 18px;
         }
         
+    }
+
+    .statistics{
+        &__wrapper{
+            flex-direction: column;
+        }
+
+        &__title{
+            align-items: center;
+        }
+        &__titles{
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        &__title-value{
+            font-size: 45px;
+        }
+        &__subtitle {
+            font-size: 10px;
+        }
+        
+        &__description{
+            font-size: 16px;
+        }
+        &__text{
+            br{
+                display: none;
+            }
+        }
+    }
+    .line{
+        display: none;
     }
 }
 
@@ -204,7 +290,20 @@
             font-size: 18px;
         }
     }
+    .girl{
+        max-height: 700px;
+    }
+    
+    .statistics{
+        padding-top: 100px;
+        &__title-value {
+            font-size: 36px;
+        }
 
+        &__description {
+            font-size: 14px;
+        }
+    }
 }
 
 
@@ -243,11 +342,40 @@
         font-size: 12px;
         padding: 10px;
     }
+    .girl {
+        max-height: 530px;
+    }
+
+    .statistics{
+        &__titles{
+            flex-direction: column;
+        }
+        &__title-value {
+            font-size: 36px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+    }
+
+    .spot{
+        width: 100%;
+        left: 0;
+        right: 0;
+        transform: translate(-50%, -70%);
+        img{
+            width: 200%;
+            object-fit: contain;
+        }
+    }
 }
 
 
 //=============================================================== 320 ======================================================
 
 @media (max-width: 320px){
-
+    .statistics__description {
+        font-size: 12px;
+    }
 }

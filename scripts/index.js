@@ -10,4 +10,44 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     menu();
+
+
+    const lines = () => {
+        class LineMove {
+            constructor(selector) {
+                this.items = document.querySelector(selector).children;
+                this.count = 0;
+            }
+
+            init() {
+
+               requestAnimationFrame(this.move.bind(this))
+            }
+
+            move(){
+
+                this.count++;
+                console.log(this.count);
+                [...this.items].forEach(elem => {
+                    elem.style.transform = `translateX(${this.count}px)`;
+                    if (parseFloat( elem.style.transform.split('(')[1]) > 300){
+                        elem.parentElement.prepend(elem)
+                    }
+                })
+                // requestAnimationFrame(this.move.bind(this))
+                
+
+            }
+        }
+
+        const line1 = new LineMove('.first-line');
+
+        line1.init();
+
+        
+
+
+    }
+
+    lines();
 })
