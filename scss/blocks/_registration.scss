@@ -1,0 +1,160 @@
+.registration {
+    position: relative;
+    background: url(../../img/registration/starts.png) center repeat;
+
+    // .registration__circle
+
+    &__circle {
+        position: absolute;
+        top: -75px;
+        left: 0;
+        z-index: -1;
+
+    }
+
+    // .registration__wrapper
+
+    &__wrapper {}
+
+    // .registration__top
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .registration__column
+
+    &__column {
+        width: 48%;
+    }
+
+    // .registration__tittle
+
+    &__tittle {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 115%;
+        color: #FFFFFF;
+
+        &:after {
+            content: '';
+            background: url(../../img/registration/Arrow.png) center no-repeat;
+            width: 123px;
+            height: 38px;
+            display: inline-block;
+            margin-left: 30px;
+            transform: translateY(8px);
+        }
+    }
+
+    // .registration__conditios
+
+    &__conditios {}
+
+    // .registration__bottom
+
+    &__bottom {}
+
+    &__spot{
+        position: absolute;
+        top: -100px;
+    }
+
+    &__spot-red{
+        position: absolute;
+        right: 0;
+        top: -100px;
+    }
+}
+
+.conditios {
+    display: grid;
+    grid-template-rows: 342px 237px;
+    grid-template-columns: repeat(2, 332px);
+    gap: 30px;
+
+    // .conditios__item
+
+    &__item {
+        background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.45) -249.81%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.75) -99.37%, rgba(247, 248, 250, 0) 0%);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        backdrop-filter: blur(15px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 15px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    // .conditios__image
+
+    &__image {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(5px);
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: flex-end;
+        position: absolute;
+        top: 35px;
+        right: 35px;
+    }
+
+    // .conditios__info
+
+    &__info {
+        position: absolute;
+        left: 35px;
+        bottom: 29px;
+    }
+
+    // .conditios__tittle
+
+    &__tittle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        line-height: 135%;
+        color: #FFFFFF;
+
+        span{
+            font-size: 24px;
+            display: block;
+        }
+    }
+}
+
+.features {
+
+    // .features__list
+
+    &__list {}
+
+    // .features__item
+
+    &__item {}
+}
+
+.feels {}
+
+.lock {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.star {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.brain {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}

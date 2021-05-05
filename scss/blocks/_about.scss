@@ -1,0 +1,115 @@
+.about {
+    background: url(../../img/about/bg.png) center repeat;
+    padding-bottom: 247px;
+    padding-top: 126px;
+    position: relative;
+    overflow: hidden;
+
+    // .about__wrapper
+
+    &__wrapper {
+        display: flex;
+    }
+
+    // .about__spot
+
+    &__spot {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        z-index: -1;
+    }
+    &__spot-red {
+        position: absolute;
+        right: 0;
+        bottom: -10%;
+        max-width: 80%;
+        z-index: -1;
+
+        img{
+            width: 80%;
+            object-fit: cover;
+        }
+    }
+
+    // .about__images
+
+    &__images {
+        
+        position: relative;
+        margin-right: 147px;
+    }
+
+    // .about__img-big
+
+    &__img-big {
+        width: 490px;
+        height: 591px;
+        border-radius: 15px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    }
+
+    // .about__img-small
+
+    &__img-small {
+        position: absolute;
+        top: 292px;
+        left: 319px;
+        width: 264px;
+        height: 355px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 15px;
+        }
+    }
+
+    // .about__content
+
+    &__content {}
+
+    // .about__title
+
+    &__title {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 96px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 34px;
+
+        span {
+            background: linear-gradient(45deg, #74F94C 100%, #2FCC00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    // .about__description
+
+    &__description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 31px;
+        line-height: 115%;
+        color: #FFFFFF;
+    }
+
+    // .about__text
+
+    &__text {
+        margin-bottom: 20px;
+    }
+}

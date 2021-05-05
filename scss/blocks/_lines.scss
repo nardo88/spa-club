@@ -13,7 +13,7 @@
         top: 50%;
         display: flex;
         align-items: center;
-        width: 170%;
+        width: 370%;
         background: #E31818;
     }
 
@@ -22,6 +22,7 @@
     &__elem {
         display: flex;
         align-items: center;
+        position: relative;
         margin: 0 12px;
     }
 
@@ -38,17 +39,14 @@
     }
 }
 
-.first-line{
+.first-line {
     z-index: 50;
     transform: rotate(0.85deg);
     box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.35);
 }
 
-.second-line{
+.second-line {
     z-index: 20;
     transform: rotate(-4.05deg);
 
 }
-
-
-

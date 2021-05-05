@@ -1,6 +1,16 @@
+@media (max-width: 1555px) {
+    .lines {
+        &__text {
+            font-size: 28px;
+        }
+
+    }
+}
+
+
 //=============================================================== 1470 ======================================================
-@media (max-width: 1470px){
-    .container{
+@media (max-width: 1470px) {
+    .container {
         padding: 0 20px;
     }
 
@@ -8,109 +18,194 @@
         width: 60%;
         overflow: hidden;
     }
-    .statistics{
-        &__title-value{
+
+    .statistics {
+        &__title-value {
             font-size: 95px;
         }
-        
-        &__description{
+
+        &__description {
             font-size: 28px;
         }
     }
-    .line{
-        // width: 64%;
+
+    .line {}
+
+    .lines {
+        &__text {
+            font-size: 24px;
+        }
+
+        &__elem {
+            padding: 5px 0;
+        }
+
+    }
+
+    .about {
+        padding-top: 40px;
+
+        &__title {
+            font-size: 80px;
+        }
+
+        &__description {
+            font-size: 26px;
+        }
+
+        &__img-big {
+            width: 430px;
+            height: 518px;
+            -webkit-border-radius: 15px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        &__img-small {
+            position: absolute;
+            top: 264px;
+            left: 250px;
+            width: 222px;
+            height: 312px;
+        }
     }
 }
 
 //=============================================================== 1270 ======================================================
-@media (max-width: 1270px){
-    .nav{
+@media (max-width: 1270px) {
+    .nav {
         &__item {
             margin-right: 50px;
+        }
+    }
+
+    .lines {
+        &__text {
+            font-size: 20px;
         }
     }
 
 }
 
 //=============================================================== 1200 ======================================================
-@media (max-width: 1200px){
-    .nav{
+@media (max-width: 1200px) {
+    .nav {
         &__registration {
             font-size: 16px;
             line-height: 20px;
             padding: 10px 20px;
         }
+
         &__item {
             margin-right: 30px;
         }
     }
 
-    .main{
+    .main {
         &__image {
             position: relative;
             z-index: 30;
             width: 700px;
         }
 
-        &__subtitle{
+        &__subtitle {
             font-size: 33px;
-        } 
+        }
+
         &__city {
             margin-left: 30px;
         }
+
         &__title {
             font-size: 31px;
             margin-top: -25px;
         }
+
         &__description {
             font-size: 22px;
             left: 30%;
         }
-        
+
     }
-    .time{
+
+    .time {
         font-size: 24px;
         max-width: 524px;
         padding: 15px;
-        &__value{
+
+        &__value {
             font-size: 22px;
         }
     }
 
-    .statistics{
-        &__title-value{
+    .statistics {
+        &__title-value {
             font-size: 80px;
         }
-        
-        &__description{
+
+        &__description {
             font-size: 23px;
         }
     }
-    
 
-    
+    .lines {
+        &__text {
+            font-size: 18px;
+        }
+    }
+
+    .about {
+        padding-top: 0px;
+
+        &__title {
+            font-size: 60px;
+        }
+
+        &__description {
+            font-size: 20px;
+        }
+
+        &__img-big {
+            width: 372px;
+            height: 446px;
+
+        }
+
+        &__img-small {
+            width: 174px;
+            height: 226px;
+        }
+
+        &__images {
+            margin-right: 100px;
+        }
+    }
+
+
+
 }
 
 //=============================================================== 992 ======================================================
 
-@media (max-width: 992px){
-    .burger{
+@media (max-width: 992px) {
+    .burger {
         display: block;
     }
-    .nav{
+
+    .nav {
         display: none;
 
-        &__list{
+        &__list {
             flex-direction: column;
         }
 
-        &__item{
+        &__item {
             margin-right: 0;
             margin-bottom: 30px;
         }
     }
 
-    .open{
+    .open {
         display: flex;
         position: absolute;
         top: 95px;
@@ -130,21 +225,23 @@
         display: flex;
         justify-content: flex-end;
 
-        img{
+        img {
             height: 100%;
             width: 60%;
             object-fit: cover;
         }
     }
-    .elipse{
+
+    .elipse {
         bottom: 0;
 
-        img{
+        img {
             width: 60%;
         }
     }
-    .main{
-        &__content{
+
+    .main {
+        &__content {
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -153,63 +250,152 @@
 
         }
     }
-    .time{
+
+    .time {
         margin: 110px auto 0;
     }
 
-    .statistics{
-        &__title-value{
+    .statistics {
+        margin-bottom: 50px;
+
+        &__title-value {
             font-size: 65px;
         }
+
         &__subtitle {
             font-size: 14px;
         }
-        
-        &__description{
+
+        &__description {
             font-size: 20px;
+        }
+    }
+
+    .lines {
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .about {
+        padding-bottom: 140px;
+
+        &__title {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        &__description {
+            font-size: 16px;
+        }
+
+        &__img-big {
+            width: 307px;
+            height: 366px;
+
+        }
+
+        &__img-small {
+            width: 135px;
+            height: 174px;
+            top: 233px;
+            left: 213px;
+        }
+
+        &__images {
+            margin-right: 75px;
+        }
+
+        &__spot-red{
+            display: none;
         }
     }
 }
 
 //=============================================================== 860 ======================================================
 
-@media (max-width: 860px){
-    .statistics{
-      
-        
-        &__description{
+@media (max-width: 860px) {
+    .statistics {
+
+
+        &__description {
             font-size: 18px;
+        }
+    }
+
+    .lines {
+        &__text {
+            font-size: 13px;
+        }
+
+        &__item {}
+    }
+
+
+    .about {
+        padding-bottom: 110px;
+
+        &__title {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+
+        &__img-big {
+
+            width: 265px;
+            height: 320px;
+
+        }
+
+        &__img-small {
+            width: 114px;
+            height: 141px;
+            top: 210px;
+            left: 175px;
+        }
+
+        &__images {
+            margin-right: 50px;
         }
     }
 }
 
 //=============================================================== 768 ======================================================
 
-@media (max-width: 768px){
-    .statistics{
-        &__title-value{
+@media (max-width: 768px) {
+    .statistics {
+        &__title-value {
             font-size: 57px;
         }
+
         &__subtitle {
             font-size: 12px;
         }
-        
-        &__description{
+
+        &__description {
             font-size: 16px;
         }
+    }
+
+    .lines {
+        &__item {}
     }
 }
 
 
 //=============================================================== 720 ======================================================
 
-@media (max-width: 720px){
-    .main{
+@media (max-width: 720px) {
+    .main {
         &__subtitle {
             font-size: 24px;
         }
 
-        &__image{
+        &__image {
             width: 550px;
         }
 
@@ -218,59 +404,115 @@
             margin-top: -18px;
         }
 
-        &__description{
+        &__description {
             position: static;
             font-size: 18px;
         }
-        
+
     }
 
-    .statistics{
-        &__wrapper{
+    .statistics {
+        &__wrapper {
             flex-direction: column;
         }
 
-        &__title{
+        &__title {
             align-items: center;
         }
-        &__titles{
+
+        &__titles {
             display: flex;
             width: 100%;
             justify-content: space-between;
             margin-bottom: 20px;
         }
-        &__title-value{
+
+        &__title-value {
             font-size: 45px;
         }
+
         &__subtitle {
             font-size: 10px;
         }
-        
-        &__description{
+
+        &__description {
             font-size: 16px;
         }
-        &__text{
-            br{
+
+        &__text {
+            br {
                 display: none;
             }
         }
     }
-    .line{
+
+    .line {
         display: none;
+    }
+
+    .lines {
+        min-height: 180px;
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__elem {
+            margin: 0 5px;
+
+            img {
+                margin-right: 3px;
+            }
+        }
+    }
+
+    .about {
+        padding-bottom: 50px;
+
+        &__wrapper{
+            flex-direction: column;
+        }
+
+        &__title {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+
+        &__img-big {
+
+            width: 100%;
+            height: 320px;
+
+        }
+
+        &__img-small {
+            display: none;
+        }
+
+        &__images {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
     }
 }
 
 
 //=============================================================== 576 ======================================================
 
-@media (max-width: 576px){
-    .main{
+@media (max-width: 576px) {
+    .main {
         &__image {
             width: 450px;
         }
+
         &__subtitle {
             font-size: 18px;
         }
+
         &__title {
             font-size: 18px;
             margin-top: -12px;
@@ -286,16 +528,18 @@
         margin: 48px auto 0;
         font-size: 18px;
 
-        &__value{
+        &__value {
             font-size: 18px;
         }
     }
-    .girl{
+
+    .girl {
         max-height: 700px;
     }
-    
-    .statistics{
+
+    .statistics {
         padding-top: 100px;
+
         &__title-value {
             font-size: 36px;
         }
@@ -304,21 +548,28 @@
             font-size: 14px;
         }
     }
+
+    .lines {
+        &__text {
+            font-size: 10px;
+        }
+
+    }
 }
 
 
 //=============================================================== 480 ======================================================
 
-@media (max-width: 480px){
-    .header{
-        &__logo{
-            img{
+@media (max-width: 480px) {
+    .header {
+        &__logo {
+            img {
                 width: 150px;
             }
         }
     }
 
-    .main{
+    .main {
         &__image {
             width: 310px;
         }
@@ -331,6 +582,7 @@
             font-size: 14px;
             margin-top: -8px;
         }
+
         &__city {
             margin-left: 10px;
         }
@@ -342,14 +594,16 @@
         font-size: 12px;
         padding: 10px;
     }
+
     .girl {
         max-height: 530px;
     }
 
-    .statistics{
-        &__titles{
+    .statistics {
+        &__titles {
             flex-direction: column;
         }
+
         &__title-value {
             font-size: 36px;
         }
@@ -359,14 +613,59 @@
         }
     }
 
-    .spot{
+    .spot {
         width: 100%;
         left: 0;
         right: 0;
         transform: translate(-50%, -70%);
-        img{
+
+        img {
             width: 200%;
             object-fit: contain;
+        }
+    }
+
+    .lines {
+        &__item {
+            width: 500%;
+        }
+
+    }
+
+    .first-line {
+        transform: rotate(7deg);
+    }
+
+    .second-line {
+        transform: rotate(349deg);
+
+    }
+
+    .about {
+        padding-bottom: 30px;
+
+       
+
+        &__title {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        &__description {
+            font-size: 14px;
+        }
+
+        &__img-big {
+            height: 210px;
+        }
+
+
+        &__images {
+            margin-bottom: 20px;
+        }
+
+        &__text{
+            margin-bottom: 10px;
         }
     }
 }
@@ -374,8 +673,42 @@
 
 //=============================================================== 320 ======================================================
 
-@media (max-width: 320px){
+@media (max-width: 320px) {
     .statistics__description {
         font-size: 12px;
+    }
+
+    .lines {
+        &__item {
+            width: 600%;
+        }
+
+    }
+
+
+    .about {
+        padding-bottom: 20px;
+
+        &__title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        &__description {
+            font-size: 12px;
+        }
+
+        &__img-big {
+            height: 210px;
+        }
+
+
+        &__images {
+            margin-bottom: 20px;
+        }
+
+        &__text{
+            margin-bottom: 10px;
+        }
     }
 }
