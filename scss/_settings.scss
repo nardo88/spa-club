@@ -1,15 +1,46 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
-body{
+body {
     background: #070b1b;
 }
 
-.container{
+.container {
     margin: 0 auto;
     max-width: 1440px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 115%;
+    /* or 55px */
+
+    text-align: left;
+
+    color: #FFFFFF;
+    margin-bottom: 45px;
+    position: relative;
+
+    &:after {
+        content: '';
+        width: 400%;
+        height: 8px;
+        position: absolute;
+        top: 60%;
+        transform: translate(30px, -50%);
+
+
+        background: #74F94C;
+    }
 }

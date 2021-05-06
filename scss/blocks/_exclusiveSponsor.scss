@@ -1,0 +1,108 @@
+.exlusive-sponsor {
+    overflow: hidden;
+    background: url(../../img/exlusive-sponsor/bg.png) center repeat;
+    padding-bottom: 187px;
+
+    // .exlusive-sponsor__wrapper
+
+    &__wrapper {}
+
+    // .exlusive-sponsor__title
+
+    &__title {}
+
+    // .exlusive-sponsor__list
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 -15px;
+        position: relative;
+
+    }
+
+    // .exlusive-sponsor__item
+
+    &__item {
+        width: 330px;
+        margin: 15px;
+    }
+
+    // .exlusive-sponsor__label
+
+    &__label {
+        background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.25) -59.1%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.45) -99.37%, rgba(247, 248, 250, 0) 0%);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        backdrop-filter: blur(15px);
+        border-radius: 15px;
+        width: 100%;
+        height: 229px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 60%;
+        }
+    }
+
+    // .exlusive-sponsor__description
+
+    &__description {
+        margin: 25px 0 22px;
+    }
+
+    // .exlusive-sponsor__text
+
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 135%;
+        color: #FFFFFF;
+    }
+
+    // .exlusive-sponsor__contacts
+
+    &__contacts {}
+
+    // .exlusive-sponsor__link
+
+    &__link {
+        display: flex;
+        align-items: center;
+
+        img{
+            margin-right: 15px;
+        }
+    }
+
+    // .exlusive-sponsor__link-text
+
+    &__link-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #74F94C;
+    }
+
+    &__spot1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-77px, -78px);
+
+    }
+
+    &__spot2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(371px, -78px);
+
+    }
+}

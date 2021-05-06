@@ -21,8 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             init() {
-
-
                 for(let i = 0; i < 7; i++){
                     const elem = document.createElement('div');
                     elem.classList.add('lines__elem');
@@ -31,19 +29,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="./img/lines/warning.svg" alt="warning">
                         <span class="lines__text">Вход строго по приглашениям </span>
                     `;
-                    
                     elem.left = 0;
                     this.items.insertAdjacentElement('beforeend', elem);
-
-                   
                 }
-
                requestAnimationFrame(this.move.bind(this))
             }
-
             move(){
-
-                
                 [...this.items.children].forEach(elem => {
                     elem.left ++;
                     elem.style.transform = `translateX(${elem.left}px)`;
@@ -54,11 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 })
                 requestAnimationFrame(this.move.bind(this));
-                
-
             }
-
-           
         }
 
         const line1 = new LineMove('.first-line');
@@ -66,10 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         line1.init();
         line2.init();
-
-        
-
-
     }
 
     lines();

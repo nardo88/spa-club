@@ -1,6 +1,8 @@
 .registration {
     position: relative;
     background: url(../../img/registration/starts.png) center repeat;
+    overflow: hidden;
+    padding-bottom: 255px;
 
     // .registration__circle
 
@@ -42,6 +44,7 @@
         &:after {
             content: '';
             background: url(../../img/registration/Arrow.png) center no-repeat;
+            background-size: cover;
             width: 123px;
             height: 38px;
             display: inline-block;
@@ -58,12 +61,12 @@
 
     &__bottom {}
 
-    &__spot{
+    &__spot {
         position: absolute;
         top: -100px;
     }
 
-    &__spot-red{
+    &__spot-red {
         position: absolute;
         right: 0;
         top: -100px;
@@ -124,7 +127,7 @@
         line-height: 135%;
         color: #FFFFFF;
 
-        span{
+        span {
             font-size: 24px;
             display: block;
         }
@@ -132,17 +135,84 @@
 }
 
 .features {
+    position: relative;
+    margin-top: 245px;
+
+    &__tittle {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 115%;
+        /* or 55px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
 
     // .features__list
 
-    &__list {}
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        max-width: 1155px;
+        margin: 0 auto;
+    }
 
     // .features__item
 
-    &__item {}
+    &__item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 135%;
+        color: #74F94C;
+        background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.25) -249.81%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.45) -99.37%, rgba(247, 248, 250, 0) 0%);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        backdrop-filter: blur(15px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 10px;
+        padding: 14px 67px;
+        margin: 14px;
+    }
+
+    &__spot {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -20%);
+
+    }
 }
 
-.feels {}
+.feels {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 115%;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.7;
+    // border: 1px solid #FFFFFF;
+
+    -webkit-text-stroke: 1px #FFFFFF;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    width: 400%;
+    position: relative;
+    z-index: -1;
+    margin-top: -45px;
+    left: -20px;
+
+}
 
 .lock {
     grid-column: 1/2;

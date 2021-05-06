@@ -1,0 +1,138 @@
+.general-sponsor {
+    background: url(../img/general-sponsor/bg.png) center repeat;
+    overflow: hidden;
+
+    // .general-sponsor__wrapper
+
+    &__wrapper {}
+
+    // .general-sponsor__title
+
+    &__title {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 115%;
+        /* or 55px */
+
+        text-align: left;
+
+        color: #FFFFFF;
+        margin-bottom: 45px;
+        position: relative;
+
+        &:after {
+            content: '';
+            width: 400%;
+            height: 8px;
+            position: absolute;
+            top: 60%;
+            transform: translate(30px, -50%);
+
+
+            background: #74F94C;
+        }
+
+
+    }
+
+    // .general-sponsor__list
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    // .general-sponsor__item
+
+    &__item {
+        width: 48%;
+        margin-bottom: 45px;
+    }
+
+    // .general-sponsor__label
+
+    &__label {
+        background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.25) -59.1%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.45) -99.37%, rgba(247, 248, 250, 0) 0%);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        backdrop-filter: blur(15px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 229px;
+
+    }
+
+    // .general-sponsor__description
+
+    &__description {
+        margin-top: 45px;
+        margin-bottom: 22px;
+    }
+
+    // .general-sponsor__text
+
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 135%;
+        /* or 24px */
+
+
+        color: #FFFFFF;
+    }
+
+    // .general-sponsor__contacts
+
+    &__contacts {
+        display: flex;
+        align-items: center;
+    }
+
+    // .general-sponsor__site
+
+    &__site {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 25px;
+
+        img{
+            margin-right: 15px;
+        }
+    }
+
+    // .general-sponsor__contact-text
+
+    &__contact-text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+
+
+        color: #74F94C;
+    }
+
+    &__spot{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        z-index: -1;
+    }
+}
+
+.social-link {
+    margin-left: 15px;
+}
