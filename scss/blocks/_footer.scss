@@ -1,0 +1,145 @@
+.footer {
+    background: url(../img/footer/bg.png) center repeat;
+    overflow: hidden;
+    padding-bottom: 45px;
+    position: relative;
+
+    // .footer__wrapper
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    // .footer__column
+
+    &__column {
+        width: 50%;
+    }
+
+    // .footer__left
+
+    &__left {
+
+        position: relative;
+    }
+
+    // .footer__logo
+
+    &__logo {}
+
+    // .footer__rights
+
+    &__rights {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFF;
+        opacity: 0.4;
+    }
+
+    // .footer__line
+
+    &__line {
+        background: #74F94C;
+        height: 8px;
+        position: absolute;
+        bottom: 45px;
+        left: -26.5%;
+        width: 60%;
+    }
+
+    // .footer__contacts
+
+    &__contacts {}
+
+    // .footer__title
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 125%;
+        color: #FFFFFF;
+        margin-bottom: 19px;
+    }
+}
+
+.organizators {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    // .organizators__item
+
+    &__item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        padding-left: 35px;
+    }
+
+    // .organizators__image
+
+    &__image {
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    // .organizators__name
+
+    &__name {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 31px;
+        line-height: 38px;
+        color: #FFFFFF;
+        margin-left: 100px;
+        margin-bottom: 9px;
+
+        span {
+            display: block;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+
+    // .organizators__telegram
+
+    &__telegram {
+        background: #74F94C;
+        border-radius: 35px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 38px;
+        color: #13172C;
+        padding: 7px 19px 7px 84px;
+    }
+}

@@ -94,12 +94,13 @@
         }
     }
 
-    .general-sponsor{
+    .general-sponsor {
         &__title {
             font-size: 42px;
         }
-        &__label{
-            img{
+
+        &__label {
+            img {
                 width: 70%;
             }
         }
@@ -109,10 +110,41 @@
         }
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         &__item {
             width: 22%;
             margin: 15px;
+        }
+    }
+
+    .media-partners {
+        &__text {
+            font-size: 22px;
+        }
+
+        &__description {
+            max-width: 610px;
+        }
+    }
+
+    .organizators {
+        &__name {
+            font-size: 28px;
+            line-height: 36px;
+
+            span {
+                font-size: 16px;
+            }
+        }
+
+        &__telegram {
+            font-size: 20px;
+        }
+    }
+
+    .footer {
+        &__line {
+            left: -29.5%;
         }
     }
 }
@@ -141,6 +173,7 @@
 
     .registration {
         padding-bottom: 180px;
+
         &__circle {
             width: 70%;
 
@@ -174,11 +207,12 @@
             margin: 0 auto;
         }
 
-        &__item{
+        &__item {
             font-size: 18px;
             padding: 10px 40px;
-        } 
-        &__list{
+        }
+
+        &__list {
             max-width: 1100px;
         }
     }
@@ -208,14 +242,76 @@
         }
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         padding-bottom: 100px;
+
         &__text {
             font-size: 14px;
         }
-        &__label{
+
+        &__label {
             height: 190px;
         }
+    }
+
+    .media-partners {
+        &__text {
+            font-size: 22px;
+        }
+
+        &__description {
+            max-width: 610px;
+        }
+    }
+
+    .map {
+        width: 70%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .footer {
+
+        &__logo {
+            display: inline-block;
+            width: 200px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &__rights {
+            font-size: 16px;
+        }
+
+
+    }
+
+    .organizators {
+        &__telegram {
+        }
+
+        &__image {
+            width: 100px;
+            height: 100px;
+        }
+
+        &__name {
+            font-size: 24px;
+            line-height: 30px;
+            margin-left: 70px;
+
+            span {
+                font-size: 14px;
+            }
+        }
+
+
     }
 
 }
@@ -314,7 +410,7 @@
         }
     }
 
-    .registration{
+    .registration {
         &__tittle {
             font-size: 24px;
         }
@@ -323,7 +419,7 @@
     .conditios {
         grid-template-columns: repeat(2, 215px);
         grid-template-rows: 240px 163px;
-    
+
 
 
 
@@ -331,23 +427,28 @@
             width: 90px;
             height: 90px;
         }
+
         &__tittle {
             font-size: 18px;
+
             span {
                 font-size: 12px;
             }
         }
     }
 
-    .features{
+    .features {
         margin-top: 105px;
+
         &__tittle {
             font-size: 34px;
             max-width: 700px;
         }
+
         &__list {
             max-width: 940px;
         }
+
         &__item {
             font-size: 16px;
             padding: 10px 35px;
@@ -360,26 +461,80 @@
         margin-top: -29px;
     }
 
-    .general-sponsor{
+    .general-sponsor {
         &__title {
             font-size: 35px;
         }
-       
+
 
         &__text {
             font-size: 13px;
         }
     }
+
     .title {
         font-size: 35px;
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         &__item {
             width: 23%;
             margin: 8px;
         }
     }
+
+    .media-partners {
+        &__item {
+            margin: 24px 10px;
+            transform: scale(0.8);
+        }
+    }
+
+    .footer {
+
+        &__logo {
+            width: 180px;
+
+        }
+
+        &__rights {
+            font-size: 16px;
+        }
+
+        &__title {
+            font-size: 18px;
+        }
+
+
+    }
+
+    .organizators {
+
+
+        &__telegram {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 7px 19px 7px 55px;
+        }
+
+        &__image {
+            width: 100px;
+            height: 100px;
+        }
+
+        &__name {
+            font-size: 20px;
+            line-height: 25px;
+            margin-left: 68px;
+
+            span {
+                font-size: 12px;
+            }
+        }
+
+
+    }
+
 }
 
 //=============================================================== 992 ======================================================
@@ -514,21 +669,24 @@
 
         &__image {
             width: 75px;
-            height: 75px;   
+            height: 75px;
         }
+
         &__tittle {
             font-size: 16px;
+
             span {
                 font-size: 10px;
             }
         }
     }
 
-    .features{
+    .features {
         &__tittle {
             font-size: 29px;
             max-width: 630px;
         }
+
         &__item {
             font-size: 14px;
             padding: 8px 25px;
@@ -538,9 +696,11 @@
         &__list {
             max-width: 780px;
         }
-        &_spot{
+
+        &_spot {
             width: 70%;
-            img{
+
+            img {
                 width: 100%;
                 object-fit: cover;
             }
@@ -552,15 +712,15 @@
         margin-top: -29px;
     }
 
-    .general-sponsor{
+    .general-sponsor {
         &__title {
             font-size: 30px;
         }
 
-        &__label{
+        &__label {
             height: 180px;
         }
-       
+
 
         &__text {
             font-size: 12px;
@@ -571,19 +731,95 @@
         font-size: 30px;
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         &__text {
             font-size: 12px;
         }
+
         &__link-text {
             font-size: 14px;
         }
+    }
+
+    .media-partners {
+        &__item {
+            margin: 15px 10px;
+            transform: scale(0.7);
+        }
+
+        &__list {
+            margin: 59px auto 20px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__description {
+            max-width: 478px;
+            padding: 25px 35px;
+            top: 245px;
+        }
+    }
+
+    .footer {
+
+        &__logo {
+            width: 160px;
+
+        }
+
+        &__rights {
+            font-size: 14px;
+        }
+
+        &__title {
+            font-size: 16px;
+        }
+
+        &__line {
+            display: none;
+        }
+
+
+    }
+
+    .organizators {
+
+
+        &__telegram {
+            font-size: 16px;
+            line-height: 22px;
+            padding: 7px 10px 7px 45px;
+        }
+
+        &__image {
+            width: 85px;
+            height: 85px;
+        }
+
+        &__name {
+            font-size: 20px;
+            line-height: 25px;
+            margin-left: 55px;
+
+            span {
+                font-size: 10px;
+            }
+        }
+
+
     }
 }
 
 //=============================================================== 860 ======================================================
 
 @media (max-width: 860px) {
+
+    .media-partners__spot {
+        transform: translate(-40%, -25%);
+    }
+
     .statistics {
 
 
@@ -632,9 +868,9 @@
         }
     }
 
-    .registration{
+    .registration {
         &__tittle {
-            font-size : 20px;
+            font-size: 20px;
         }
     }
 
@@ -644,37 +880,41 @@
 
         &__image {
             width: 75px;
-            height: 75px;   
+            height: 75px;
         }
+
         &__tittle {
             font-size: 14px;
+
             span {
                 font-size: 8px;
             }
         }
     }
 
-    .features{
+    .features {
         &__tittle {
             font-size: 22px;
             max-width: 460px;
             margin-bottom: 20px;
         }
+
         &__spot {
             transform: translate(-50%, -30%);
         }
     }
+
     .feels {
         font-size: 40px;
         margin-top: -17px;
     }
 
-    .general-sponsor{
-      
-       
+    .general-sponsor {
+
+
 
         &__text {
-            br{
+            br {
                 display: none;
             }
         }
@@ -682,15 +922,17 @@
         &__contact-text {
             font-size: 14px;
         }
-        &__site{
+
+        &__site {
             margin-right: 15px;
         }
-        &__item{
+
+        &__item {
             width: 49%;
         }
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         &__item {
             width: 46%;
             margin: 8px;
@@ -700,10 +942,75 @@
             height: 165px;
         }
 
-        &__spot2{
+        &__spot2 {
             transform: translate(-10%, -78px);
-    
+
         }
+    }
+
+    .media-partners {
+        padding-bottom: 100px;
+
+        &__item {
+            margin: 10px 15px;
+            transform: scale(0.6);
+        }
+
+        &__list {
+            margin: 59px auto 20px;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+
+        &__description {
+            max-width: 380px;
+            padding: 15px 25px;
+            top: 205px;
+        }
+
+        &__title {
+            font-size: 38px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 150px;
+        }
+
+        &__rights {
+            font-size: 12px;
+        }
+
+        &__title {
+            font-size: 14px;
+        }
+    }
+
+    .organizators {
+        &__telegram {
+            font-size: 12px;
+            line-height: 1;
+            padding: 7px 19px 7px 35px;
+        }
+
+        &__image {
+            width: 75px;
+            height: 75px;
+        }
+        &__name {
+            font-size: 18px;
+            line-height: 1;
+            margin-left: 45px;
+            margin-bottom: 0px;
+
+            span {
+                font-size: 9px;
+            }
+        }
+
     }
 }
 
@@ -728,10 +1035,11 @@
         &__item {}
     }
 
-    .registration{
+    .registration {
         &__tittle {
             font-size: 18px;
-            &:after{
+
+            &:after {
                 width: 45px;
                 height: 12px;
                 margin-left: 10px;
@@ -739,42 +1047,47 @@
         }
     }
 
-    .conditios{
+    .conditios {
         grid-template-columns: repeat(2, 155px);
         grid-template-rows: 170px 110px;
         gap: 20px;
     }
 
-    .general-sponsor{
+    .general-sponsor {
 
-        &__text {
-            
-        }
+        &__text {}
 
         &__contact-text {
             font-size: 14px;
         }
-        &__site{
+
+        &__site {
             margin-right: 15px;
         }
-        &__item{
+
+        &__item {
             width: 49%;
         }
+
         &__description {
             margin-top: 20px;
             margin-bottom: 15px;
         }
-        &__site{
-            img{
+
+        &__site {
+            img {
                 margin-right: 10px;
             }
         }
+
         &__label {
             height: 150px;
         }
+
         &__title {
             font-size: 24px;
-            &:after{
+
+            &:after {
                 height: 4px;
             }
         }
@@ -783,9 +1096,73 @@
     .title {
         font-size: 24px;
 
-        &:after{
+        &:after {
             height: 4px;
         }
+    }
+
+    .media-partners {
+        padding-bottom: 70px;
+
+        &__item {
+            margin: 5px;
+            transform: scale(0.6);
+        }
+
+        &__title {
+            font-size: 32px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            width: 150px;
+        }
+
+        &__rights {
+            font-size: 12px;
+        }
+
+        &__title {
+            font-size: 14px;
+        }
+        &__column{
+            width: 80%;
+            margin-top: 20px;
+        }
+        &__wrapper{
+            flex-direction: column-reverse;
+        }
+
+        &__left {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .organizators {
+        &__telegram {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        &__image {
+            width: 75px;
+            height: 75px;
+        }
+        &__name {
+            font-size: 18px;
+            line-height: 1;
+            margin-left: 45px;
+            margin-bottom: 0px;
+
+            span {
+                font-size: 9px;
+            }
+        }
+
     }
 }
 
@@ -902,20 +1279,23 @@
         }
     }
 
-    .registration{
-        &__top{
+    .registration {
+        &__top {
             flex-direction: column;
             align-items: center;
         }
+
         &__column {
             width: 100%;
             display: flex;
             justify-content: center;
         }
-        &__tittle{
+
+        &__tittle {
             margin-bottom: 20px;
             text-align: center;
-            &:after{
+
+            &:after {
                 display: none;
             }
         }
@@ -927,11 +1307,13 @@
 
     .features {
         margin-top: 55px;
+
         &__item {
             font-size: 12px;
             padding: 8px 16px;
             margin: 5px;
         }
+
         &__list {
             max-width: 650px;
         }
@@ -942,37 +1324,42 @@
         margin-top: -12px;
     }
 
-    .general-sponsor{
+    .general-sponsor {
 
 
         &__contact-text {
             font-size: 12px;
         }
-       
-        &__item{
+
+        &__item {
             width: 100%;
         }
+
         &__description {
             margin-top: 20px;
             margin-bottom: 15px;
         }
-        &__site{
-            img{
+
+        &__site {
+            img {
                 margin-right: 10px;
             }
         }
+
         &__label {
             height: 150px;
         }
     }
 
-    .exlusive-sponsor{
+    .exlusive-sponsor {
         &__item {
             width: 100%;
             margin: 8px;
         }
+
         &__label {
             height: 140px;
+
             img {
                 width: 37%;
                 object-fit: cover;
@@ -980,6 +1367,50 @@
         }
 
 
+    }
+
+    .media-partners {
+        padding-bottom: 50px;
+
+        &__item {
+            margin: 0;
+            transform: scale(0.5);
+        }
+
+        &__list {
+            margin: 59px auto 20px;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+
+        &__description {
+            max-width: 100%;
+            padding: 15px 25px;
+            top: 40%;
+            z-index: 10;
+        }
+
+        &__title {
+            font-size: 38px;
+        }
+
+        &__spot {
+            top: -100%;
+            left: 0;
+            transform: translate(0%, 0%);
+        }
+    }
+
+    .map {
+        width: 100%;
+        opacity: 0.5;
+
+        img {
+            width: 80%;
+
+        }
     }
 }
 
@@ -1041,6 +1472,7 @@
 
     .registration {
         padding-bottom: 65px;
+
         &__tittle {
             font-size: 16px;
         }
@@ -1051,17 +1483,19 @@
         width: 100%;
     }
 
-    .features{
+    .features {
         &__tittle {
             font-size: 18px;
             max-width: 460px;
             margin-bottom: 20px;
         }
+
         &__list {
             max-width: 100%;
-            
+
         }
-        &__item{
+
+        &__item {
             width: 100%;
             text-align: center;
         }
@@ -1070,6 +1504,30 @@
     .feels {
         font-size: 27px;
         margin-top: 10px;
+    }
+
+    .media-partners {
+        &__title {
+            font-size: 26px;
+        }
+
+        &__list {
+            margin: 59px auto 20px;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px 0;
+            width: 100%;
+        }
+
+        &__item {
+            transform: scale(0.7);
+            width: 20%;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
     }
 }
 
@@ -1189,13 +1647,14 @@
         gap: 10px;
     }
 
-    .features{
+    .features {
         &__tittle {
             font-size: 14px;
         }
+
         &__list {
             max-width: 100%;
-            
+
         }
     }
 
@@ -1209,21 +1668,25 @@
     }
 
 
-    .general-sponsor{
+    .general-sponsor {
         &__title {
             font-size: 14px;
             margin-bottom: 20px;
             text-align: center;
-            &:after{
+
+            &:after {
                 display: none;
             }
         }
+
         &__contact-text {
             font-size: 10px;
         }
+
         &__label {
             height: 125px;
-            img{
+
+            img {
                 width: 60%;
             }
         }
@@ -1233,14 +1696,16 @@
         font-size: 14px;
         margin-bottom: 20px;
         text-align: center;
-        &:after{
+
+        &:after {
             display: none;
         }
     }
 
     .exlusive-sponsor {
         padding-bottom: 45px;
-        &__link-text  {
+
+        &__link-text {
             font-size: 10px;
         }
 
@@ -1248,8 +1713,67 @@
             height: 125px;
         }
 
-        &__spot1{
+        &__spot1 {
             transform: translate(-202px, -78px);
+        }
+    }
+
+    .media-partners {
+        padding-bottom: 15px;
+
+        &__title {
+            font-size: 18px;
+        }
+
+
+
+        &__item {
+            transform: scale(0.5);
+            width: 20%;
+
+        }
+
+        &__text {
+            font-size: 12px;
+        }
+
+        &__description {
+            padding: 10px 15px;
+            top: 25%;
+        }
+    }
+
+    .organizators{
+        flex-direction: column;
+        align-items: center;
+        &__image {
+            width: 60px;
+            height: 60px;
+        }
+
+        &__name {
+            font-size: 16px;
+            margin-left: 30px;
+        }
+        &__telegram {
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        &__item{
+            width: 90%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .footer{
+        &__logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        &__title {
+            text-align: center;
         }
     }
 
@@ -1295,5 +1819,22 @@
         &__text {
             margin-bottom: 10px;
         }
+    }
+
+    .media-partners {
+        padding-bottom: 15px;
+
+        &__title {
+            font-size: 16px;
+        }
+
+
+
+
+
+        &__text {
+            font-size: 10px;
+        }
+
     }
 }

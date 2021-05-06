@@ -1,0 +1,82 @@
+.media-partners {
+    background: url(../img/mediapartners/bg.png) center repeat;
+    padding-bottom: 218px;
+    overflow: hidden;
+
+    // .media-partners__wrapper
+
+    &__wrapper {}
+
+    // .media-partners__title
+
+    &__title {
+        font-family: 'Druk Wide Cyr';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 115%;
+        /* or 55px */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    // .media-partners__list
+
+    &__list {
+        margin: 59px auto 165px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1273px;
+        justify-content: space-between;
+    }
+
+    // .media-partners__item
+
+    &__item {
+        margin: 45px 23px;
+    }
+
+    // .media-partners__content
+
+    &__content {
+        position: relative;
+    }
+
+    // .media-partners__description
+
+    &__description {
+        background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.45) -249.81%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.75) -99.37%, rgba(247, 248, 250, 0) 0%);
+        border: 0.5px solid rgba(255, 255, 255, 0.15);
+        box-sizing: border-box;
+        backdrop-filter: blur(15px);
+        border-radius: 15px;
+        max-width: 827px;
+        padding: 58px 61px;
+        position: absolute;
+        top: 304px;
+        right: 0;
+        z-index: -1;
+    }
+
+    // .media-partners__text
+
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 31px;
+        line-height: 125%;
+        color: #FFFFFF;
+    }
+
+    &__spot{
+        position: absolute;
+        top: -10%;
+        left: 50%;
+        transform: translate(-40%, -10%);
+    }
+}
+
+.map {}

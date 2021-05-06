@@ -1,6 +1,6 @@
 .registration {
     position: relative;
-    background: url(../../img/registration/starts.png) center repeat;
+    background: url(../img/registration/starts.png) center repeat;
     overflow: hidden;
     padding-bottom: 255px;
 
@@ -43,7 +43,7 @@
 
         &:after {
             content: '';
-            background: url(../../img/registration/Arrow.png) center no-repeat;
+            background: url(../img/registration/Arrow.png) center no-repeat;
             background-size: cover;
             width: 123px;
             height: 38px;
