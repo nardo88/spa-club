@@ -1,7 +1,9 @@
 .media-partners {
     background: url(../img/mediapartners/bg.png) center repeat;
     padding-bottom: 218px;
+    padding-top: 50px;
     overflow: hidden;
+    background-color: #0B1129;
 
     // .media-partners__wrapper
 
@@ -48,6 +50,7 @@
 
     &__description {
         background: linear-gradient(340.86deg, rgba(255, 255, 255, 0.45) -249.81%, rgba(255, 255, 255, 0) 84.63%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.75) -99.37%, rgba(247, 248, 250, 0) 0%);
+
         border: 0.5px solid rgba(255, 255, 255, 0.15);
         box-sizing: border-box;
         backdrop-filter: blur(15px);
@@ -57,7 +60,6 @@
         position: absolute;
         top: 304px;
         right: 0;
-        z-index: -1;
     }
 
     // .media-partners__text
