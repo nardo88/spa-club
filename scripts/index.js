@@ -137,6 +137,51 @@ document.addEventListener('DOMContentLoaded', () => {
     lines();
 
 
+
+    const countTimer = (deadLine) => {
+        const timeValue = document.querySelector('.time__value');
+        
+
+        function getTimeRemaining(){
+            let dateStop = new Date(deadLine).getTime(),
+                dateNow = new Date().getTime(),
+                timeRemaining = (dateStop - dateNow) / 1000,
+                second = Math.floor(timeRemaining % 60),
+                minutes = Math.floor((timeRemaining / 60) % 60),
+                hours = Math.floor(timeRemaining / 60 / 60);
+
+                return {timeRemaining, hours, minutes, second};
+        }
+
+        function updateClock(){
+            let timer = getTimeRemaining();
+           
+            // если акция закончилась то выключаем таймер
+            if (timer.timeRemaining <= 0){
+                // я бы здесь вообще указал timer-numbers display none
+                clearInterval(updateClockInterval)
+                timerHours.textContent = '00'
+                timerMinutes.textContent = '00'
+                timerSeconds.textContent = '00'
+            } else {
+
+                timeValue.textContent = `${timer.hours < 10 ? '0' + timer.hours : timer.hours} : ${timer.minutes < 10 ? '0' + timer.minutes : timer.minutes} : ${timer.second < 10 ? '0' + timer.second : timer.second}`;
+            }
+            
+
+            
+            
+        }  
+
+        updateClock();
+
+        let updateClockInterval = setInterval(updateClock, 1000)
+
+    }
+
+    countTimer('9 June 2021');
+
+
     
 
 
