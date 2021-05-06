@@ -1,0 +1,131 @@
+.overlay-reg {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-reg {
+    width: 871px;
+    height: 433px;
+    background: #0B1129;
+    border-radius: 25px;
+    padding: 45px 60px 55px 55px;
+
+    // .modal-reg__title
+
+    &__title {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+    }
+
+    // .modal-reg__subtitle
+
+    &__subtitle {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 145%;
+        color: #FDFDFD;
+        margin-bottom: 17px;
+    }
+
+    // .modal-reg__form
+
+    &__form {}
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+
+    // .form__item
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: flex-end;
+
+        label {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 145%;
+            color: #FDFDFD;
+            margin-bottom: 8px;
+        }
+    }
+
+    // .form__input
+
+    &__input {
+        background: rgba(255, 255, 255, 0.1);
+        outline: none;
+        border: none;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 145%;
+        color: rgba(253, 253, 253, 0.2);
+        padding: 9px 15px;
+    }
+
+    // .form__btn
+
+    &__btn {
+        background: #2D375F;
+        border-radius: 99px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 9px 43px;
+
+        color: #919191;
+
+    }
+}
+
+.phone {
+    width: 264px;
+    margin-right: 35px;
+}
+
+.name {
+    width: 264px;
+}
+
+.email {
+    width: 264px;
+    margin-right: 35px;
+
+}
+
+.vertical {
+    width: 457px;
+}
+
+.trafiс {
+    width: 512px;
+    margin-right: 53px;
+}
