@@ -535,6 +535,51 @@
 
     }
 
+    .modal-reg{
+        width: 783px;
+
+        &__title {
+            font-size: 31px;
+        }
+
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+
+    .form{
+        &__item{
+            label {
+                font-size: 10px;
+            }
+
+        } 
+    }
+    .phone {
+        width: 230px;
+    }
+
+    .name {
+        width: 230px;
+    }
+
+    .email {
+        width: 230px;
+    }
+    .vertical {
+        width: 400px;
+    }
+
+    .form__btn {
+        padding: 9px 35px;
+    }
+
+    .trafiс {
+        width: 440px;
+    }
+
+  
+
 }
 
 //=============================================================== 992 ======================================================
@@ -1012,6 +1057,55 @@
         }
 
     }
+
+    .modal-reg{
+        width: 680px;
+        height: 365px;
+        
+        &__title {
+            font-size: 24px;
+        }
+
+        &__subtitle {
+            font-size: 10px;
+        }
+    }
+
+    .form{
+        &__item{
+            label {
+                font-size: 8px;
+            }
+
+        } 
+        &__input {
+            font-size: 14px;
+            padding: 5px 10px;
+        }
+    }
+    .phone {
+        width: 180px;
+    }
+
+    .name {
+        width: 180px;
+    }
+
+    .email {
+        width: 180px;
+    }
+    .vertical {
+        width: 350px;
+    }
+
+    .form__btn {
+        padding: 4px 24px;
+        font-size: 14px;
+    }
+
+    .trafiс {
+        width: 382px;
+    }
 }
 
 //=============================================================== 768 ======================================================
@@ -1412,6 +1506,44 @@
 
         }
     }
+
+    .modal-reg{
+        width: 85%;
+        height: auto;
+        padding: 20px 35px;
+        
+        &__title {
+            font-size: 18px;
+        }
+
+        &__subtitle {
+            font-size: 9px;
+        }
+    }
+
+    .form{
+        justify-content: space-between;
+        &__item{
+            width: 48%;
+            label {
+                font-size: 8px;
+            }
+
+        } 
+        &__input {
+            margin-left: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+    
+
+    .form__btn {
+        padding: 4px 24px;
+        font-size: 14px;
+    }
+
+    
 }
 
 
@@ -1529,6 +1661,42 @@
             }
         }
     }
+
+    .modal-reg{
+        width: 90%;
+        padding: 20px;
+        
+        &__title {
+            font-size: 16px;
+        }
+
+        &__subtitle {
+            font-size: 8px;
+        }
+    }
+
+    .form{
+        justify-content: space-between;
+        &__item{
+            width: 100%;
+            label {
+                font-size: 8px;
+            }
+
+        } 
+        &__input {
+            margin-left: 0;
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+    
+
+    .form__btn {
+        padding: 4px 24px;
+        font-size: 14px;
+    }
+
 }
 
 
@@ -1836,5 +2004,14 @@
             font-size: 10px;
         }
 
+    }
+}
+
+
+.visible{
+    visibility: visible;
+
+    .modal-reg{
+        transform: translateY(0);
     }
 }

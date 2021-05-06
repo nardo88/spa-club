@@ -1,4 +1,5 @@
 .overlay-reg {
+    visibility: hidden;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -12,6 +13,8 @@
 }
 
 .modal-reg {
+    transform: translateY(-2500px);
+    transition: transform 0.4s;
     width: 871px;
     height: 433px;
     background: #0B1129;
@@ -129,3 +132,5 @@
     width: 512px;
     margin-right: 53px;
 }
+
+

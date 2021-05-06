@@ -1,0 +1,79 @@
+.overlay-thank {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-thank {
+    width: 871px;
+    background: #0B1129;
+    border-radius: 25px;
+    padding: 65px 49px 81px 55px;
+    position: relative;
+    overflow: hidden;
+
+
+    // .modal-thank__blue
+
+    &__blue {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    // .modal-thank__image
+
+    &__image {}
+
+    // .modal-thank__text
+
+    &__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 125%;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+        margin-top: 3px;
+        max-width: 720px;
+    }
+
+    // .modal-thank__btn
+
+    &__btn {
+        background: #74F94C;
+        border-radius: 99px;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 9px 54px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #0B1129;
+    }
+
+    // .modal-thank__red
+
+    &__red {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+}

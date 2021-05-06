@@ -20,20 +20,22 @@
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <img src="./img/header/logo.png" alt="logo">
+                    <a href="#!">
+                        <img src="./img/header/logo.png" alt="logo">
+                    </a>
                 </div>
                 <nav class="header__nav nav">
                     <ul class="nav__list">
-                        <li class="nav__item">
+                        <li data-scroll="#about" class="nav__item">
                             <a href="#!" class="nav__link">О нас</a>
                         </li>
-                        <li class="nav__item">
+                        <li data-scroll="#programm" class="nav__item">
                             <a href="#!" class="nav__link">Программа</a>
                         </li>
-                        <li class="nav__item">
+                        <li data-scroll="#sponsor" class="nav__item">
                             <a href="#!" class="nav__link">Спонсоры</a>
                         </li>
-                        <li class="nav__item">
+                        <li data-scroll="#contacts" class="nav__item">
                             <a href="#!" class="nav__link">Контакты</a>
                         </li>
                     </ul>
@@ -124,7 +126,7 @@
     </div>
 
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__spot">
@@ -146,7 +148,7 @@
                     <div class="about__description">
                         <p class="about__text">Закрытый клуб, собравший элиту партнёрского маркетинга. </p>
                         <p class="about__text">350 резидентов клуба активно помогают друг другу развиваться, делать топовые проекты, решать сложные вопросы <br>и конечно же увеличивать прибыль.</p>
-                        <p class="about__text">CPA.club это не только бизнес-завтраки, эксклюзивные закрытые вечеринки и совместные путешествия. В VIP-нетворкинге рождаются топовые коллаборации, свежие идеи и драйв, позволяющий двигать индустрию вперёд и вверх!</p>
+                        <p class="about__text">CPA.club это не только бизнес-завтраки, эксклюзивные закрытые вечеринкии совместные путешествия. В VIP-нетворкинге рождаются топовые коллаборации, свежие идеи и драйв, позволяющий двигать индустриювперёд и вверх!</p>
                     </div>
                 </div>
             </div>
@@ -154,7 +156,7 @@
     </section>
 
 
-    <section class="registration">
+    <section id="programm" class="registration">
         <div class="registration__circle">
             <img src="./img/registration/circles.png" alt="circle">
         </div>
@@ -237,7 +239,7 @@
     </section>
 
 
-    <section class="general-sponsor">
+    <section id="sponsor" class="general-sponsor">
         <div class="container">
             <div class="general-sponsor__wrapper">
                 <h2 class="general-sponsor__title">Генеральные спонсоры</h2>
@@ -612,7 +614,7 @@
     </section>
 
 
-    <footer class="footer">
+    <footer id="contacts" class="footer">
         <div class="footer__line"></div>
         <div class="container">
             <div class="footer__wrapper">
@@ -678,17 +680,17 @@
 
                 <div class="form__item">
                     <label for="email">Емайл</label>
-                    <input id="email" type="email" class="form__input email" placeholder="sample@gmail.com">
+                    <input id="email" type="email" class="form__input email" required placeholder="sample@gmail.com">
                 </div>
 
                 <div class="form__item">
                     <label for="">Вертикаль, с которой работаете?</label>
-                    <input id="vertical" type="text" class="form__input vertical" placeholder="sample@gmail.com">
+                    <input id="vertical" type="text" class="form__input vertical" required placeholder="sample@gmail.com">
                 </div>
 
                 <div class="form__item">
                     <label for="">Источник трафика, с которым работаете?</label>
-                    <input id="trafiс" type="text" class="form__input trafiс" placeholder="sample@gmail.com">
+                    <input id="trafiс" type="text" class="form__input trafiс" required placeholder="sample@gmail.com">
                 </div>
 
                 <div class="form__item">
@@ -696,6 +698,20 @@
                 </div>
             </form>
 
+        </div>
+    </div>
+
+    <div class="overlay-thank">
+        <div class="modal-thank">
+            <div class="modal-thank__blue">
+                <img src="./img/thank/blue.png" alt="blue">
+            </div>
+            <img src="./img/thank/img1.png" alt="thank" class="modal-thank__image">
+            <p class="modal-thank__text">Спасибо за ваш интерес к нашему мероприятию. Наш представитель свяжется с вами в ближайшее время для подтверждения регистрации!</p>
+            <button class="modal-thank__btn">Закрыть</button>
+            <div class="modal-thank__red">
+                <img src="./img/thank/red.png" alt="blue">
+            </div>
         </div>
     </div>
  
