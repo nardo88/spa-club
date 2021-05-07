@@ -146,9 +146,9 @@ document.addEventListener('DOMContentLoaded', () => {
             let dateStop = new Date(deadLine).getTime(),
                 dateNow = new Date().getTime(),
                 timeRemaining = (dateStop - dateNow) / 1000,
-                second = Math.floor(timeRemaining % 60),
-                minutes = Math.floor((timeRemaining / 60) % 60),
-                hours = Math.floor(timeRemaining / 60 / 60);
+                second = Math.floor(timeRemaining / 60 % 60),
+                minutes = Math.floor((timeRemaining / 60 / 60) % 60),
+                hours = Math.floor(timeRemaining / 60 / 60 / 24);
 
                 return {timeRemaining, hours, minutes, second};
         }
