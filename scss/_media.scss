@@ -57,7 +57,7 @@
         }
 
         &__description {
-            font-size: 28px;
+            font-size: 26px;
         }
     }
 
@@ -74,15 +74,16 @@
 
     }
 
+    
     .about {
         padding-top: 40px;
 
         &__title {
-            font-size: 80px;
+            font-size: 70px;
         }
 
         &__description {
-            font-size: 26px;
+            font-size: 23px;
         }
 
         &__img-big {
@@ -163,6 +164,7 @@
 
 //=============================================================== 1270 ======================================================
 @media (max-width: 1270px) {
+    
     .nav {
         &__item {
             margin-right: 30px;
@@ -180,6 +182,13 @@
 
         &__spot {
             display: none;
+        }
+
+        &__title {
+            font-size: 70px;
+        }
+        &__description{
+            font-size: 23px;
         }
     }
 
@@ -835,7 +844,7 @@
         &__description {
             max-width: 478px;
             padding: 25px 35px;
-            top: 245px;
+            top: 150px;
         }
     }
 
@@ -1056,7 +1065,7 @@
         &__description {
             max-width: 380px;
             padding: 15px 25px;
-            top: 205px;
+            top: 120px;
         }
 
         &__title {
@@ -1982,7 +1991,7 @@
     }
 
     .media-partners {
-        padding-bottom: 15px;
+        padding-bottom: 50px;
 
         &__title {
             font-size: 18px;
