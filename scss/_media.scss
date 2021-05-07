@@ -160,6 +160,18 @@
     .registration__circle {
         top: -55px;
     }
+
+    .item  {
+        h3{
+            font-size: 24px;
+
+        }
+    }
+
+    .buy {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
 }
 
 //=============================================================== 1270 ======================================================
@@ -616,6 +628,9 @@
         }
     }
 
+    .item h3 {
+        font-size: 20px;
+    }
   
 
 }
@@ -908,6 +923,19 @@
         &__text {
             font-size: 18px;
         }
+    }
+
+    .buy {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .item h3 {
+        font-size: 17px;
+    }
+
+    .item {
+        margin: 0 15px;
     }
 }
 
@@ -1328,12 +1356,29 @@
         }
 
     }
+
+
+    .buy {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .item h3 span {
+        font-size: 12px;
+    }
+
+    .item h3 {
+        font-size: 14px;
+    }
 }
 
 
 //=============================================================== 720 ======================================================
 
 @media (max-width: 720px) {
+    .send{
+        display: none;
+    }
     .main {
         &__subtitle {
             font-size: 24px;

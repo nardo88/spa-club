@@ -1,0 +1,146 @@
+.send {
+    padding: 18px 0;
+    background: #171d34;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+
+
+
+
+    // .send__wrapper
+
+    &__wrapper {}
+}
+
+.countdown-box {}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 0 30px;
+
+    h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 125%;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+
+        span {
+            color: #fff;
+            font-size: 14px;
+            display: block;
+            font-weight: normal;
+            align-self: flex-end;
+        }
+    }
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    // width: 170px;
+}
+
+.countdown-number {
+    text-align: center;
+    font-size: 8px;
+    position: relative;
+}
+
+.days {
+    background: #2dcb73;
+}
+
+.countdown-time {
+    display: block;
+    width: 47px;
+    height: 47px;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+    overflow: hidden;
+    font-weight: 900;
+    border-radius: 4px;
+    line-height: 47px;
+    position: relative;
+}
+
+.countdown-time:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 23px;
+    background: #356383;
+    left: 0;
+    right: 0;
+}
+
+.countdown-text {
+    display: block;
+    margin-top: 5px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.countdown-time:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 23px;
+    background: #356383;
+    left: 0;
+    right: 0;
+}
+
+.countdown-number:before,
+.countdown-number:after {
+    content: '';
+    width: 2px;
+    background: #fff;
+    display: block;
+    position: absolute;
+    height: 5px;
+    top: 21px;
+}
+
+.countdown-number:before {
+    left: -2px;
+}
+
+.hours {
+    background: #3498db;
+}
+
+.minutes {
+    background: #f39c12;
+}
+
+
+
+.buy {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    color: #0B1129;
+    background: #74F94C;
+    border-radius: 99px;
+}
