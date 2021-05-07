@@ -363,7 +363,7 @@
         padding: 15px;
 
         &__value {
-            font-size: 22px;
+            font-size: 25px;
         }
     }
 
@@ -1789,9 +1789,12 @@
         margin: 40px auto 0;
         font-size: 12px;
         padding: 10px;
+        flex-direction: column;
 
         &__value{
-            margin-left: 18px;
+            margin-left: 0;
+            font-size: 14px;
+            margin-top: 20px;
         }
     }
 
