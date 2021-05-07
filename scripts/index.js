@@ -77,15 +77,36 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 5000)
         }
 
+        // отправка формы
 
-        document.addEventListener('submit', e => {
+        async function sendForm (e){
             e.preventDefault();
-            overlayReg.classList.remove('visible');
-           
-            thank();
-        })
+            const form = document.querySelector('.form');
+            let formData = new FormData(form);
 
+            let response = await fetch('../sendmail.php', {
+                method: 'POST',
+                body: formData,
+            })
 
+            if (response.ok){
+                // в переменную result помещаем ответ преобразив его в формат 
+                // JSON
+                let result = await response.json()
+                // Выводим alert c результатом ответа
+                form.reset()
+                overlayReg.classList.remove('visible');
+                thank();
+                // если же что то пошло не так
+            } else {
+                // мы выдаем alert c результатом
+                alert('Ошибка!')
+          
+            }
+
+        } 
+
+        document.addEventListener('submit', sendForm );
     }
 
     menu();
