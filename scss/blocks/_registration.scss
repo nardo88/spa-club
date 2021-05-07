@@ -114,6 +114,11 @@
         position: absolute;
         top: 35px;
         right: 35px;
+
+        img{
+            height: 100%;
+            object-fit: cover;
+        }
     }
 
     // .conditios__info
