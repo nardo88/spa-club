@@ -49,3 +49,36 @@ a {
 ul{
     list-style-type: none;
 }
+
+.go-to-top{
+    width: 38px;
+    height: 38px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
+    z-index: 500;
+
+    svg{
+        path{
+            transition: 0.3s;
+        }
+    }
+
+    &:hover{
+        svg{
+            path{
+                fill: #74F94C;
+            }
+        }
+    
+    }
+
+    &-reverse{
+        transform: rotate(180deg);
+    }
+
+}

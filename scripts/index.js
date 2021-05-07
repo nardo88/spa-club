@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
             nav.classList.toggle('open');
         }
 
-        
-
         // функция скрола
         const skroll = (selector) => {
             // получаем высоту раздела
@@ -167,11 +165,12 @@ document.addEventListener('DOMContentLoaded', () => {
             let dateStop = new Date(deadLine).getTime(),
                 dateNow = new Date().getTime(),
                 timeRemaining = (dateStop - dateNow) / 1000,
+                miliSecond = Math.floor(timeRemaining % 60),
                 second = Math.floor(timeRemaining / 60 % 60),
                 minutes = Math.floor((timeRemaining / 60 / 60) % 60),
                 hours = Math.floor(timeRemaining / 60 / 60 / 24);
 
-                return {timeRemaining, hours, minutes, second};
+                return {timeRemaining, hours, minutes, second, miliSecond};
         }
 
         function updateClock(){
@@ -186,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 timerSeconds.textContent = '00'
             } else {
 
-                timeValue.textContent = `${timer.hours < 10 ? '0' + timer.hours : timer.hours} : ${timer.minutes < 10 ? '0' + timer.minutes : timer.minutes} : ${timer.second < 10 ? '0' + timer.second : timer.second}`;
+                timeValue.textContent = `${timer.hours < 10 ? '0' + timer.hours : timer.hours} : ${timer.minutes < 10 ? '0' + timer.minutes : timer.minutes} : ${timer.second < 10 ? '0' + timer.second : timer.second} : ${timer.miliSecond < 10 ? '0' + timer.miliSecond : timer.miliSecond}`;
             }
             
 
@@ -204,7 +203,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     
+    const goToTop = () => {
+        const goTopBtn = document.querySelector('.go-to-top');
+        window.addEventListener('scroll', () => {
+            if (pageYOffset === 0 ){
+                goTopBtn.classList.remove('go-to-top-reverse')
+            } else {
+                goTopBtn.classList.add('go-to-top-reverse')
 
+            }
+        })
+
+        goTopBtn.addEventListener('click', () => {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        })
+
+    }
+
+    goToTop();
 
    
 })
