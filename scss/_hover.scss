@@ -78,20 +78,3 @@
     }
 }
 
-.registration__conditios {
-    transition: .3s;
-    overflow: hidden;
-    outline: none;
-
-    &:hover {
-        background: linear-gradient(339.23deg, rgba(255, 255, 255, 0.45) -247.2%, rgba(255, 255, 255, 0) 140.33%), linear-gradient(312.39deg, rgba(255, 255, 255, 0.75) -99.37%, rgba(247, 248, 250, 0) 0%);
-        border: 0.5px solid rgba(255, 255, 255, 0.15);
-        box-sizing: border-box;
-        border-radius: 15px;
-
-        .conditios__image{
-            background: rgba(255, 255, 255, 0.25);
-            transform: scale(-1, 1);
-        }
-    }
-}

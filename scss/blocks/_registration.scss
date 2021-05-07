@@ -3,12 +3,13 @@
     background: url(../img/registration/starts.png) center repeat;
     overflow: hidden;
     padding-bottom: 255px;
+    padding-top: 50px;
 
     // .registration__circle
 
     &__circle {
         position: absolute;
-        top: -75px;
+        top: -30px;
         left: 0;
         z-index: -1;
 
