@@ -75,9 +75,7 @@
         z-index: -1;
     }
 
-    &__text{
-        
-    }
+    &__text {}
 }
 
 .conditios {
@@ -85,6 +83,8 @@
     grid-template-rows: 342px 237px;
     grid-template-columns: repeat(2, 332px);
     gap: 30px;
+    position: relative;
+    z-index: 20;
 
     // .conditios__item
 
@@ -115,7 +115,7 @@
         top: 35px;
         right: 35px;
 
-        img{
+        img {
             height: 100%;
             object-fit: cover;
         }
