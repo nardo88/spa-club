@@ -47,7 +47,7 @@
     }
 
     .girl {
-        // width: 60%;
+        width: 60%;
         overflow: hidden;
     }
 
@@ -1895,6 +1895,11 @@
 
     .girl {
         max-height: 530px;
+        width: 100%;
+
+        img{
+            width: 100%;
+        }
     }
 
     .statistics {
