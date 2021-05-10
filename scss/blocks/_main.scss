@@ -1,6 +1,8 @@
 .main {
     background: url(../img/main/bg.png);
     top: 0;
+    position: relative;
+    padding-top: 269px;
     // .main__wrapper
 
     &__wrapper {}
@@ -8,7 +10,6 @@
     // .main__content
 
     &__content {
-        margin-top: 269px;
         position: relative;
         z-index: 30;
         max-width: 992px;
@@ -85,6 +86,8 @@
     position: absolute;
     right: 0;
     top: 0;
+    left: 0;
+    bottom: 0;
 }
 
 .elipse {

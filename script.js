@@ -145,4 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         reader.readAsDataURL(file)
     }
+
+
+    
 })

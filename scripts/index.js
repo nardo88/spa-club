@@ -118,6 +118,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menu();
 
+    const video = () => {
+        const videoPlayer = document.querySelector('video');
+        if (videoPlayer){
+
+            videoPlayer.play();
+        }
+    }
+
+    video();
+
 
     const lines = () => {
         class LineMove {
