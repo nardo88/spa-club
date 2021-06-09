@@ -237,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
-    countTimer('9 June 2021');
+    countTimer('9 August 2021');
 
 
 
